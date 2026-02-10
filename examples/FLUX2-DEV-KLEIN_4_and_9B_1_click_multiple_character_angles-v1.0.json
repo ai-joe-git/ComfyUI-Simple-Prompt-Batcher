@@ -99,10 +99,6 @@
             "noise_seed"
           ],
           [
-            "73",
-            "control_after_generate"
-          ],
-          [
             "-1",
             "unet_name"
           ],
@@ -151,7 +147,6 @@
       "widgets_values": [
         "",
         432262096973515,
-        null,
         "flux-2-klein-9b.safetensors",
         "qwen_3_8b_fp4mixed.safetensors",
         "flux2-vae.safetensors"
@@ -255,10 +250,6 @@
             "noise_seed"
           ],
           [
-            "73",
-            "control_after_generate"
-          ],
-          [
             "-1",
             "unet_name"
           ],
@@ -307,7 +298,6 @@
       "widgets_values": [
         "",
         432262096973515,
-        null,
         "flux-2-klein-4b.safetensors",
         "qwen_3_4b_fp4_mixed.safetensors",
         "flux2-vae.safetensors"
@@ -418,10 +408,6 @@
             "noise_seed"
           ],
           [
-            "25",
-            "control_after_generate"
-          ],
-          [
             "70",
             "megapixels"
           ],
@@ -446,13 +432,13 @@
             "steps"
           ]
         ],
+        "cnr_id": "comfy-core",
+        "ver": "0.7.0",
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.5.2",
           "input_ue_unconnectable": {}
         },
-        "cnr_id": "comfy-core",
-        "ver": "0.7.0",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -491,13 +477,13 @@
       ],
       "outputs": [],
       "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.8.2",
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.5.2",
           "input_ue_unconnectable": {}
         },
-        "cnr_id": "comfy-core",
-        "ver": "0.8.2",
         "Node name for S&R": "SaveImage",
         "enableTabs": false,
         "tabWidth": 65,
@@ -517,12 +503,12 @@
       "id": 101,
       "type": "SimplePromptBatcher",
       "pos": [
-        111.5822127531862,
-        1897.190505322968
+        33.36877690003713,
+        1897.1905053229677
       ],
       "size": [
-        332.6636218379512,
-        189.9215016544283
+        591.7109841475935,
+        452.8285495383311
       ],
       "flags": {},
       "order": 1,
@@ -541,6 +527,8 @@
         }
       ],
       "properties": {
+        "cnr_id": "comfyui-simple-prompt-batcher",
+        "ver": "1.0.2",
         "Node name for S&R": "SimplePromptBatcher",
         "ue_properties": {
           "widget_ue_connectable": {},
@@ -549,7 +537,9 @@
         }
       },
       "widgets_values": [
-        "Turn the camera to a close-up.\nTurn the camera to a wide-angle lens.\nRotate the camera 45 degrees to the right.\nRotate the camera 90 degrees to the right.\nTurn the camera to an aerial view.\nTurn the camera to a low-angle view.\nRotate the camera 45 degrees to the left.\nRotate the camera 90 degrees to the left.\n\n\n\n\n\n"
+        "",
+        "Turn the camera to a close-up.\nTurn the camera to a wide-angle lens.\nRotate the camera 45 degrees to the right.\nRotate the camera 90 degrees to the right.\nTurn the camera to an aerial view.\nTurn the camera to a low-angle view.\nRotate the camera 45 degrees to the left.\nRotate the camera 90 degrees to the left.\n\n\n\n\n\n",
+        ""
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -628,9 +618,9 @@
         "id": "7b34ab90-36f9-45ba-a665-71d418f0df18",
         "version": 1,
         "state": {
-          "lastGroupId": 4,
-          "lastNodeId": 83,
-          "lastLinkId": 178,
+          "lastGroupId": 6,
+          "lastNodeId": 112,
+          "lastLinkId": 194,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -1967,9 +1957,9 @@
         "id": "6007e698-2ebd-4917-84d8-299b35d7b7ab",
         "version": 1,
         "state": {
-          "lastGroupId": 4,
-          "lastNodeId": 78,
-          "lastLinkId": 170,
+          "lastGroupId": 6,
+          "lastNodeId": 112,
+          "lastLinkId": 194,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -2333,9 +2323,9 @@
         "id": "65c22b29-59aa-496b-89c6-55a603658670",
         "version": 1,
         "state": {
-          "lastGroupId": 4,
-          "lastNodeId": 86,
-          "lastLinkId": 190,
+          "lastGroupId": 6,
+          "lastNodeId": 112,
+          "lastLinkId": 194,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -3673,9 +3663,9 @@
         "id": "27eacb9f-0da2-421d-a0bf-b4b4e5fe5709",
         "version": 1,
         "state": {
-          "lastGroupId": 4,
-          "lastNodeId": 78,
-          "lastLinkId": 170,
+          "lastGroupId": 6,
+          "lastNodeId": 112,
+          "lastLinkId": 194,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -4040,8 +4030,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 6,
-          "lastNodeId": 70,
-          "lastLinkId": 179,
+          "lastNodeId": 112,
+          "lastLinkId": 194,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -4161,14 +4151,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "BasicGuider",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "BasicGuider",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4176,7 +4166,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 26,
@@ -4212,14 +4203,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "FluxGuidance",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "FluxGuidance",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4260,14 +4251,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "KSamplerSelect",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "KSamplerSelect",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4308,14 +4299,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "VAELoader",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "VAELoader",
               "models": [
                 {
                   "name": "flux2-vae.safetensors",
@@ -4404,14 +4395,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "SamplerCustomAdvanced",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "SamplerCustomAdvanced",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4419,7 +4410,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 6,
@@ -4465,14 +4457,14 @@
             ],
             "title": "CLIP Text Encode (Positive Prompt)",
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "CLIPTextEncode",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "CLIPTextEncode",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4527,14 +4519,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "ReferenceLatent",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "ReferenceLatent",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4542,7 +4534,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 25,
@@ -4580,14 +4573,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "RandomNoise",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "RandomNoise",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4646,14 +4639,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "Flux2Scheduler",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "Flux2Scheduler",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4708,14 +4701,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "VAEDecode",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "VAEDecode",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4723,7 +4716,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 47,
@@ -4770,14 +4764,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "EmptyFlux2LatentImage",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "EmptyFlux2LatentImage",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4833,14 +4827,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "VAEEncode",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "VAEEncode",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4848,7 +4842,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 68,
@@ -4899,14 +4894,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.7.0",
+              "Node name for S&R": "GetImageSize",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.7.0",
-              "Node name for S&R": "GetImageSize",
               "enableTabs": false,
               "tabWidth": 65,
               "tabXOffset": 10,
@@ -4914,7 +4909,8 @@
               "secondTabText": "Send Back",
               "secondTabOffset": 80,
               "secondTabWidth": 65
-            }
+            },
+            "widgets_values": []
           },
           {
             "id": 70,
@@ -4950,14 +4946,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.9.2",
+              "Node name for S&R": "ImageScaleToTotalPixels",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.5.2"
-              },
-              "cnr_id": "comfy-core",
-              "ver": "0.9.2",
-              "Node name for S&R": "ImageScaleToTotalPixels"
+              }
             },
             "widgets_values": [
               "lanczos",
@@ -4991,14 +4987,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "CLIPLoader",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "CLIPLoader",
               "models": [
                 {
                   "name": "mistral_3_small_flux2_bf16.safetensors",
@@ -5058,14 +5054,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.7.0",
+              "Node name for S&R": "LoraLoaderModelOnly",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.7.0",
-              "Node name for S&R": "LoraLoaderModelOnly",
               "models": [
                 {
                   "name": "Flux_2-Turbo-LoRA_comfyui.safetensors",
@@ -5113,14 +5109,14 @@
               }
             ],
             "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.3.71",
+              "Node name for S&R": "UNETLoader",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "version": "7.5.2",
                 "input_ue_unconnectable": {}
               },
-              "cnr_id": "comfy-core",
-              "ver": "0.3.71",
-              "Node name for S&R": "UNETLoader",
               "models": [
                 {
                   "name": "flux2_dev_fp8mixed.safetensors",
@@ -5413,7 +5409,7 @@
   },
   "config": {},
   "extra": {
-    "frontendVersion": "1.36.14",
+    "frontendVersion": "1.39.11",
     "workflowRendererVersion": "LG",
     "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
@@ -5422,10 +5418,10 @@
     "ue_links": [],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.44740552502215547,
+      "scale": 0.8012262319200687,
       "offset": [
-        -120.31652760062012,
-        -1180.3618251940484
+        219.10342051320634,
+        -1594.3039421967947
       ]
     }
   },
