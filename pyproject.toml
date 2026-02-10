@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-simple-prompt-batcher"
 description = "A simple and efficient ComfyUI custom node that allows you to batch process multiple prompts in a single queue. Perfect for testing variations, exploring different ideas, or running systematic prompt experiments."
-version = "1.0.3"
+version = "1.0.4"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
 dependencies = []
