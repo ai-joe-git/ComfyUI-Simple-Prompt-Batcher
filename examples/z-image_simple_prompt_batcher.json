@@ -1,7 +1,7 @@
 {
   "id": "9ae6082b-c7f4-433c-9971-7a8f65a3ea65",
   "revision": 0,
-  "last_node_id": 59,
+  "last_node_id": 60,
   "last_link_id": 58,
   "nodes": [
     {
@@ -278,7 +278,7 @@
         60
       ],
       "flags": {},
-      "order": 6,
+      "order": 7,
       "mode": 4,
       "inputs": [
         {
@@ -363,7 +363,7 @@
         88
       ],
       "flags": {},
-      "order": 7,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -537,8 +537,7 @@
           "shape": 6,
           "type": "STRING",
           "links": [
-            56,
-            57
+            56
           ]
         }
       ],
@@ -561,53 +560,38 @@
       "bgcolor": "#353"
     },
     {
-      "id": 58,
-      "type": "ShowText|pysssss",
+      "id": 60,
+      "type": "SimplePromptBatcher",
       "pos": [
-        423.00661112698293,
-        746.4698956378583
+        424.40350427417644,
+        783.1677163158299
       ],
       "size": [
-        345.5792930551006,
-        518.2557719909985
+        400,
+        200
       ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 8,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 57
-        }
-      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "prompt",
           "shape": 6,
           "type": "STRING",
           "links": null
         }
       ],
-      "title": "Show Text - Debugging 🐍",
       "properties": {
-        "cnr_id": "comfyui-custom-scripts",
-        "ver": "1.2.5",
-        "Node name for S&R": "ShowText|pysssss",
-        "ue_properties": {
-          "version": "7.0.1",
-          "widget_ue_connectable": {}
-        }
+        "cnr_id": "comfyui-simple-prompt-batcher",
+        "ver": "1.0.2",
+        "Node name for S&R": "SimplePromptBatcher"
       },
       "widgets_values": [
         "a room with neon light, a teddybear, A 42-year-old woman with greasy shoulder-length black hair, wearing a frayed lavender robe tied crookedly, stands barefoot in a dim kitchen, staring into an open refrigerator glowing faintly blue. Inside, dozens of identical eggs float in midair, each containing a tiny screaming face. The only light comes from the fridge’s dying bulb, casting long shadows that twitch like living things on the cracked linoleum., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed",
         "a room with neon light, a teddybear, A 6-year-old boy with matted blond curls and a too-large flannel shirt sits cross-legged on a bathroom floor, pressing his forehead against the mirror as his reflection blinks without him. Water drips from the faucet in slow, heavy drops—each splash echoes like a heartbeat. The tiles are covered in peeling stickers of smiling animals, their eyes scratched out., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed",
         "a room with neon light, a teddybear, A man in his late 50s with a shaved head and a stained white lab coat stands motionless beneath a flickering fluorescent tube in an endless corridor lined with identical doors. In his hand: a single key that doesn’t belong to any lock. The air smells of burnt sugar and wet wool. Every door handle is rusted shut, except one—slightly ajar, whispering., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
+      ]
     }
   ],
   "links": [
@@ -692,14 +676,6 @@
       "STRING"
     ],
     [
-      57,
-      56,
-      0,
-      58,
-      0,
-      "STRING"
-    ],
-    [
       58,
       57,
       0,
@@ -754,11 +730,11 @@
     "ds": {
       "scale": 0.9531171560791476,
       "offset": [
-        414.01505676533793,
-        -81.72652487282919
+        29.778704302626632,
+        -614.2482933748893
       ]
     },
-    "frontendVersion": "1.37.11",
+    "frontendVersion": "1.39.11",
     "workflowRendererVersion": "LG",
     "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
