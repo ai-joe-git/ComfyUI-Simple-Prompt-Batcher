@@ -111,7 +111,7 @@
         262
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -179,7 +179,7 @@
         46
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -278,7 +278,7 @@
         60
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 4,
       "inputs": [
         {
@@ -325,7 +325,7 @@
         494.16432401930524
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -363,7 +363,7 @@
         88
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -400,52 +400,6 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
-    },
-    {
-      "id": 42,
-      "type": "ConditioningZeroOut",
-      "pos": [
-        416.84707291063813,
-        675.4490939975618
-      ],
-      "size": [
-        204.134765625,
-        26
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 55
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            42
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.73",
-        "Node name for S&R": "ConditioningZeroOut",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": []
     },
     {
       "id": 35,
@@ -560,38 +514,50 @@
       "bgcolor": "#353"
     },
     {
-      "id": 60,
-      "type": "SimplePromptBatcher",
+      "id": 42,
+      "type": "ConditioningZeroOut",
       "pos": [
-        424.40350427417644,
-        783.1677163158299
+        510.98770954003726,
+        734.9062629787364
       ],
       "size": [
-        400,
-        200
+        204.134765625,
+        26
       ],
-      "flags": {},
-      "order": 6,
+      "flags": {
+        "collapsed": false
+      },
+      "order": 8,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 55
+        }
+      ],
       "outputs": [
         {
-          "name": "prompt",
-          "shape": 6,
-          "type": "STRING",
-          "links": null
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            42
+          ]
         }
       ],
       "properties": {
-        "cnr_id": "comfyui-simple-prompt-batcher",
-        "ver": "1.0.2",
-        "Node name for S&R": "SimplePromptBatcher"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.73",
+        "Node name for S&R": "ConditioningZeroOut",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
       },
-      "widgets_values": [
-        "a room with neon light, a teddybear, A 42-year-old woman with greasy shoulder-length black hair, wearing a frayed lavender robe tied crookedly, stands barefoot in a dim kitchen, staring into an open refrigerator glowing faintly blue. Inside, dozens of identical eggs float in midair, each containing a tiny screaming face. The only light comes from the fridge’s dying bulb, casting long shadows that twitch like living things on the cracked linoleum., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed",
-        "a room with neon light, a teddybear, A 6-year-old boy with matted blond curls and a too-large flannel shirt sits cross-legged on a bathroom floor, pressing his forehead against the mirror as his reflection blinks without him. Water drips from the faucet in slow, heavy drops—each splash echoes like a heartbeat. The tiles are covered in peeling stickers of smiling animals, their eyes scratched out., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed",
-        "a room with neon light, a teddybear, A man in his late 50s with a shaved head and a stained white lab coat stands motionless beneath a flickering fluorescent tube in an endless corridor lined with identical doors. In his hand: a single key that doesn’t belong to any lock. The air smells of burnt sugar and wet wool. Every door handle is rusted shut, except one—slightly ajar, whispering., surrealistic, worn look, strong colors, dramatic lighting, unreal engine, rendering, cinematic composition, highly detailed"
-      ]
+      "widgets_values": []
     }
   ],
   "links": [
@@ -728,10 +694,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.9531171560791476,
+      "scale": 0.44850195445033647,
       "offset": [
-        29.778704302626632,
-        -614.2482933748893
+        585.0408772281368,
+        82.35030041306939
       ]
     },
     "frontendVersion": "1.39.11",
