@@ -56,7 +56,7 @@ class SimplePromptBatcher:
             return ([""],)
 
         prompt_list = [
-            f"{prepend}{', ' if prepend else ''}{p}{', ' if append else ''}{append}"
+            f"{prepend}{p}{append}"
             for p in prompt_list
         ]
 
